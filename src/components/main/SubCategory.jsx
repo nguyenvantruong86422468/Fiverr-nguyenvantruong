@@ -53,7 +53,6 @@ const SubCategory = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          // initialSlide: 2
         },
       },
       {

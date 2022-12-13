@@ -2,8 +2,8 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { Carousel } from "react-responsive-carousel";
 import "./carouselheader.css";
-// Carousel
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Link, useNavigate } from "react-router-dom";
 
 const CarouselHeader = () => {
@@ -22,7 +22,6 @@ const CarouselHeader = () => {
         showIndicators={false}
         showThumbs={false}
         swipeable={false}
-        // animationHandler={fadeAnimationHandler}
         effect="fade"
       >
         <div

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
-import {NavLink,useLocation,useNavigate,useSearchParams,} from "react-router-dom";
-import {layMenuLoaiCongViec,useQuanLyCongViec,} from "../../store/quanLyCongViec";
+import {NavLink,useLocation,useNavigate,useSearchParams} from "react-router-dom";
+import {layMenuLoaiCongViec,useQuanLyCongViec} from "../../store/quanLyCongViec";
 import Avatar from "react-avatar";
 import "./header.css";
-import {BellOutlined,ContactsTwoTone,MailOutlined,StarOutlined,} from "@ant-design/icons";
+import {BellOutlined,ContactsTwoTone,MailOutlined,StarOutlined} from "@ant-design/icons";
 import { logOut } from "../../store/auth/authReducer";
 
 const Header = (props) => {
@@ -216,7 +216,19 @@ const Header = (props) => {
                     href="#"
                     className="header-nav px-4 mx-2 text-inherit"
                   >
+                    Bussiness
+                  </NavLink>
+                  <NavLink
+                    href="#"
+                    className="header-nav px-4 mx-2 text-inherit"
+                  >
                     Become a Seller
+                  </NavLink>
+                  <NavLink
+                    href="#"
+                    className="header-nav px-4 mx-2 text-inherit"
+                  >
+                    Explore
                   </NavLink>
                   <NavLink
                     to="/signin"

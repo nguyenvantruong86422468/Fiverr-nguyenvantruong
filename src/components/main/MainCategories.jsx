@@ -67,9 +67,6 @@ const MainCategories = () => {
         <li className="category-img w-1/5 text-[#222325] text-[16px] font-[500] lg:w-1/5 md:w-1/3 sm:w-1/2 px-[10px] text-center relative transition-all duration-200">
           <img
             className="w-12 h-12 mx-auto mb-[15px] after:"
-            // width={48}
-            // height={48}
-            // style={{ margin: "0 auto 15px" }}
             src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/lifestyle.745b575.svg"
             alt="Lifestyle"
           />
@@ -78,9 +75,6 @@ const MainCategories = () => {
         <li className="category-img w-1/5 text-[#222325] text-[16px] font-[500] lg:w-1/5 md:w-1/3 sm:w-1/2 px-[10px] text-center relative transition-all duration-200">
           <img
             className="w-12 h-12 mx-auto mb-[15px] after:"
-            // width={48}
-            // height={48}
-            // style={{ margin: "0 auto 15px" }}
             src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/data.718910f.svg"
             alt="Data"
           />

@@ -1,11 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { Link, NavLink, useParams, useSearchParams } from "react-router-dom";
-import {
-  layCongViecTheoChiTietLoai,
-  layDsCongViecTheoTen,
-  useQuanLyCongViec,
-} from "../../store/quanLyCongViec";
+import {layCongViecTheoChiTietLoai,layDsCongViecTheoTen,useQuanLyCongViec} from "../../store/quanLyCongViec";
 import "./worklist.css";
 
 const WorkList = () => {

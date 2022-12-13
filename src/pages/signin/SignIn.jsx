@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
+
 import { signIn } from "../../store/auth/authReducer";
 import "./SignIn.css";
 const SignIn = () => {
@@ -23,9 +24,11 @@ const SignIn = () => {
   }, [userLogIn]);
 
   return (
+    
     <Container className="conatiner flex">
-
+      
       <div className="signin-form w-2/4 p-5">
+      
         <Form
           className="form-signin justify-center"
           onSubmit={handleSubmit((data) => {
@@ -154,6 +157,7 @@ const SignIn = () => {
           </div>
         </Form>
       </div>
+      
     </Container>
   );
 };
