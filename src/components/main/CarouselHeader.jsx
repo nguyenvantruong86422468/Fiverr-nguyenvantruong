@@ -8,7 +8,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 const CarouselHeader = () => {
   const navigate = useNavigate();
-  const { register, handleSubmit, reset } = useForm();
+  const { register, handleSubmit } = useForm();
   return (
     <div className="carousel relative">
       <Carousel

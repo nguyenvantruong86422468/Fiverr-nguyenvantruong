@@ -33,43 +33,43 @@ const WorkList = () => {
                 to="/worklist?search=html css"
                 className="bg-white text-[13px] font-medium inline-block text-[#62646a] border-[1px] border-solid border-[#dadbdd] px-[10px] my-[15px] mr-[10px] rounded-[3px] hover:bg-[#efeff0] hover:text-[#62646a] hover:border-[#95979d]"
               >
-                html css
+                HTML CSS
               </Link>
               <Link
                 to="/worklist?search=html website"
                 className="bg-white text-[13px] font-medium inline-block text-[#62646a] border-[1px] border-solid border-[#dadbdd] px-[10px] my-[15px] mr-[10px] rounded-[3px] hover:bg-[#efeff0] hover:text-[#62646a] hover:border-[#95979d]"
               >
-                html website
+                Android Studio
               </Link>
               <Link
                 to="/worklist?search=psd to html"
                 className="bg-white text-[13px] font-medium inline-block text-[#62646a] border-[1px] border-solid border-[#dadbdd] px-[10px] my-[15px] mr-[10px] rounded-[3px] hover:bg-[#efeff0] hover:text-[#62646a] hover:border-[#95979d]"
               >
-                psd to html
+                Swift
               </Link>
               <Link
                 to="/worklist?search=html email"
                 className="bg-white text-[13px] font-medium inline-block text-[#62646a] border-[1px] border-solid border-[#dadbdd] px-[10px] my-[15px] mr-[10px] rounded-[3px] hover:bg-[#efeff0] hover:text-[#62646a] hover:border-[#95979d]"
               >
-                html email
+                Figma
               </Link>
               <Link
                 to="/worklist?search=css"
                 className="bg-white text-[13px] font-medium inline-block text-[#62646a] border-[1px] border-solid border-[#dadbdd] px-[10px] my-[15px] mr-[10px] rounded-[3px] hover:bg-[#efeff0] hover:text-[#62646a] hover:border-[#95979d]"
               >
-                css
+                Genshin Impact
               </Link>
               <Link
                 to="/worklist?search=javascript"
                 className="bg-white text-[13px] font-medium inline-block text-[#62646a] border-[1px] border-solid border-[#dadbdd] px-[10px] my-[15px] mr-[10px] rounded-[3px] hover:bg-[#efeff0] hover:text-[#62646a] hover:border-[#95979d]"
               >
-                javascript
+                Javascript
               </Link>
               <Link
                 to="/worklist?search=figma to html"
                 className="bg-white text-[13px] font-medium inline-block text-[#62646a] border-[1px] border-solid border-[#dadbdd] px-[10px] my-[15px] mr-[10px] rounded-[3px] hover:bg-[#efeff0] hover:text-[#62646a] hover:border-[#95979d]"
               >
-                figma to html
+                AI
               </Link>
             </div>
           </nav>

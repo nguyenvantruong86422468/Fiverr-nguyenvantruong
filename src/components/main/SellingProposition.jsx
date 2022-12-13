@@ -130,8 +130,9 @@ const SellingProposition = () => {
           </div>
           <div className="selling-video w-1/2 bg-gray-100 rounded-lg  flex flex-col md:ml-auto mt-10 md:mt-0">
             <iframe width={"100%"} height={450} 
-              src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/vmvv3czyk2ifedefkau7"
-            ></iframe>
+              src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/vmvv3czyk2ifedefkau7">
+
+            </iframe>
           </div>
         </div>
       </section>
