@@ -1,0 +1,16 @@
+
+@media only screen and (max-width: 768px) {
+
+  .carousel-header {
+    display: none;
+  }
+  .carousel-header-text {
+    position: initial;
+    padding: 96px 64px;
+    display: block;
+    background-color: #023a15;
+  }
+  .search-popular {
+    display: none;
+  }
+}
