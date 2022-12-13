@@ -1,24 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  NavLink,
-  useLocation,
-  useNavigate,
-  useSearchParams,
-} from "react-router-dom";
-import {
-  layMenuLoaiCongViec,
-  useQuanLyCongViec,
-} from "../../store/quanLyCongViec";
+import {NavLink,useLocation,useNavigate,useSearchParams,} from "react-router-dom";
+import {layMenuLoaiCongViec,useQuanLyCongViec,} from "../../store/quanLyCongViec";
 import Avatar from "react-avatar";
 import "./header.css";
-import {
-  BellOutlined,
-  ContactsTwoTone,
-  MailOutlined,
-  StarOutlined,
-} from "@ant-design/icons";
+import {BellOutlined,ContactsTwoTone,MailOutlined,StarOutlined,} from "@ant-design/icons";
 import { logOut } from "../../store/auth/authReducer";
 
 const Header = (props) => {
@@ -103,7 +90,7 @@ const Header = (props) => {
                 <i className="fas fa-bars" />
               </button>
               <NavLink to="/home" className="font-bold text-4xl text-inherit">
-                fiverr<span className="text-green-400">.</span>
+                Fiverr<span className="text-green-400">.</span>
               </NavLink>
             </div>
             <div

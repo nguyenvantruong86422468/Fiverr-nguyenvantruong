@@ -5,14 +5,6 @@ import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { signIn } from "../../store/auth/authReducer";
 import "./SignIn.css";
-import "animate.css";
-import {
-  CheckCircleOutlined,
-  PropertySafetyOutlined,
-  TeamOutlined,
-  RocketOutlined,
-} from "@ant-design/icons";
-
 const SignIn = () => {
   const {
     register,
@@ -32,63 +24,7 @@ const SignIn = () => {
 
   return (
     <Container className="conatiner flex">
-      <div className="signin-introduce w-2/4 bg-[#F1FDF7]">
-        <div className="px-10 py-5 animate__animated animate__bounce animate__fadeInLeft">
-          <Link to="/" className="text-4xl font-bold mb-10 text-green-500">
-            A whole world of freelance talent at your fingertips
-          </Link>
-          <div>
-            <div className="mb-5">
-              <div className="text-xl font-semibold flex items-center">
-                <span className="w-[20px] h-[35px]">
-                  <CheckCircleOutlined />
-                </span>
-                <h3 className="mb-0 ml-2">The best for every budget</h3>
-              </div>
-              <span className="text-lg text-zinc-700">
-                Find high-quality services at every price point. No hourly
-                rates, just project-based pricing.
-              </span>
-            </div>
-            <div className="mb-5">
-              <div className="text-xl font-semibold flex items-center">
-                <span className="w-[20px] h-[35px]">
-                  <RocketOutlined />
-                </span>
-                <h3 className="mb-0 ml-2">Quality work done quickly</h3>
-              </div>
-              <span className="text-lg text-zinc-700">
-                Find the right freelancer to begin working on your project
-                within minutes.
-              </span>
-            </div>
-            <div className="mb-5">
-              <div className="text-xl font-semibold flex items-center">
-                <span className="w-[20px] h-[35px]">
-                  <PropertySafetyOutlined />
-                </span>
-                <h3 className="mb-0 ml-2"> Protected payments, every time</h3>
-              </div>
-              <span className="text-lg text-zinc-700">
-                Always know what you'll pay upfront. Your payment isn't released
-                until you approve the work.
-              </span>
-            </div>
-            <div className="mb-5">
-              <div className="text-xl font-semibold flex items-center">
-                <span className="w-[20px] h-[35px]">
-                  <TeamOutlined />
-                </span>
-                <h3 className="mb-0 ml-2">24/7 support</h3>
-              </div>
-              <span className="text-lg text-zinc-700">
-                Questions? Our round-the-clock support team is available to help
-                anytime, anywhere.
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
+
       <div className="signin-form w-2/4 p-5">
         <Form
           className="form-signin justify-center"
@@ -237,6 +173,8 @@ const Form = styled.form`
 `;
 
 const Container = styled.div`
+ display: flex;
+ justify-content: center;
   .error {
     &:empty {
       display: none;
