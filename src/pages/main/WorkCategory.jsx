@@ -41,7 +41,6 @@ const WorkCategory = () => {
                 style={{ width: 16, height: 16 }}
               >
                 <svg
-                  //   style={{ color: "white" }}
                   width={17}
                   height={17}
                   viewBox="0 0 16 16"

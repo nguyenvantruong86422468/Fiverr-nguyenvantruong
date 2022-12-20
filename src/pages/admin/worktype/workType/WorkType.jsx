@@ -18,7 +18,6 @@ import "./worktype.css";
 const WorkType = () => {
   const dispatch = useDispatch();
   const { workType } = useSelector((state) => state.loaiCongViecReducer);
-  console.log("workType: ", workType);
   const {
     register,
     handleSubmit,
@@ -63,7 +62,6 @@ const WorkType = () => {
           <form
             className="w-full h-full"
             onSubmit={handleSubmit((data) => {
-              console.log("data: ", data);
               dispatch(
                 putWorkType({
                   id: i.id,
@@ -245,7 +243,6 @@ const WorkType = () => {
       responsive: ["md"],
       render: (_, record) => (
         <Space size="middle">
-          {console.log("record: ", record)}
           <a>
             <button>{Modal(record)}</button>
           </a>

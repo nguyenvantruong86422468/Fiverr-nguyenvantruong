@@ -11,7 +11,6 @@ import { logOut } from "../../store/auth/authReducer";
 const Header = (props) => {
   const [togglePopover, setTogglePopover] = useState(false);
   const [isScroll, setIsScroll] = useState();
-  // Get work's catagory by useParams
 
   useEffect(() => {
     const handleScroll = () => {
@@ -104,7 +103,6 @@ const Header = (props) => {
             >
               <form
                 onSubmit={handleSubmit((data) => {
-                  console.log({ data });
                   if (data.searchText === "" || data.searchText === null) {
                     return;
                   }

@@ -18,7 +18,6 @@ const Profile = () => {
   const params = useParams();
   const dispatch = useDispatch();
   const { userInfo } = useSelector((state) => state.nguoiDungReducer);
-  console.log("userInfo: ", userInfo);
   const { listHiredWork } = useSelector((state) => state.thueCongViecReducer);
 
   const { register, handleSubmit } = useForm();

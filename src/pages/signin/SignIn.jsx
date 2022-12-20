@@ -14,7 +14,6 @@ const SignIn = () => {
   } = useForm({ mode: "onBlur" });
   const dispatch = useDispatch();
   const { userLogIn } = useSelector((state) => state.authReducer);
-  console.log("userLogIn: ", userLogIn);
   const navigate = useNavigate();
 
   useEffect(() => {

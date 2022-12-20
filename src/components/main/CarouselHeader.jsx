@@ -84,7 +84,6 @@ const CarouselHeader = () => {
           <div>
             <form
               onSubmit={handleSubmit((data) => {
-                console.log({ data });
                 if (data.searchText === "") {
                   return;
                 }

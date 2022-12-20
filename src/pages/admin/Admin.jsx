@@ -47,9 +47,7 @@ const Admin = () => {
   const [togglePopover, setTogglePopover] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
   const { userLogIn } = useSelector((state) => state.authReducer);
-  console.log("userLogIn: ", userLogIn);
   const { listUserPageSearch } = useSelector((state) => state.nguoiDungReducer);
-  console.log("listUserPageSearch: ", listUserPageSearch);
 
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -87,7 +85,6 @@ const Admin = () => {
               breakpoint="lg"
               collapsedWidth="0"
               onBreakpoint={(broken) => {
-                console.log(broken);
               }}
             >
               <div className="flex justify-center my-3">

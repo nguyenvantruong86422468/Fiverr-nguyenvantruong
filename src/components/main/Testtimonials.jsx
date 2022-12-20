@@ -11,8 +11,9 @@ const Testtimonials = () => {
               poster="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_560,dpr_1.0/v1/attachments/generic_asset/asset/42a6fd208670a0361b38bd72b47b9317-1599519173395/testimonial-video-still-haerfest.jpg"
               width={"100%"}
               height={400}
-              src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/rb8jtakrisiz0xtsffwi"
-            ></iframe>
+              src="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/rb8jtakrisiz0xtsffwi">
+
+            </iframe>
           </div>
           <div className="testtimonials-text w-3/5 text-content px-6 py-6">
             <h5 className="title-font font-[400px] text-xl text-[#74767e] mb-4">

@@ -61,9 +61,6 @@ const DetailWorkType = () => {
       maLoaiCongviec: value?.maLoaiCongviec,
     });
   });
-
-  console.log(data);
-  //Popup
   const Modal = (i) => (
     <Popup
       trigger={
@@ -89,7 +86,6 @@ const DetailWorkType = () => {
           <form
             className="w-full h-full"
             onSubmit={handleSubmit((data) => {
-              console.log("data: ", data);
               dispatch(
                 putDetailWorkType({
                   id: i?.id,
@@ -330,7 +326,6 @@ const DetailWorkType = () => {
       responsive: ["md"],
       render: (_, record) => (
         <Space size="middle">
-          {console.log("record", record)}
           <InfoCircleTwoTone
             onClick={() => {
               setExpand(true);

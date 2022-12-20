@@ -15,7 +15,6 @@ import { Link } from "react-router-dom";
 
 const Work = () => {
   const { allWork } = useSelector((state) => state.congViecReducer);
-  console.log("AllWork: ", allWork);
   const dispatch = useDispatch();
   const {
     register,
@@ -40,9 +39,6 @@ const Work = () => {
     });
   });
 
-  console.log(data);
-
-  //Popup
   const Modal = (i) => (
     <Popup
       trigger={
@@ -68,7 +64,6 @@ const Work = () => {
           <form
             className="w-full h-full"
             onSubmit={handleSubmit((data) => {
-              console.log("data: ", data);
               dispatch(
                 putWorkDetail({
                   id: i.id,
@@ -353,7 +348,6 @@ const Work = () => {
       responsive: ["md"],
       render: (_, record) => (
         <Space size="middle">
-          {console.log("record: ", record)}
           <a>
             <button>{Modal(record)}</button>
           </a>

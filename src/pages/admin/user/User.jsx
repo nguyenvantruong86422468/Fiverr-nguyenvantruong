@@ -16,9 +16,7 @@ import { useForm } from "react-hook-form";
 const User = () => {
   const { Content, Footer, Sider } = Layout;
   const { userLogIn } = useSelector((state) => state.authReducer);
-  console.log("userLogIn: ", userLogIn);
   const { listUserPageSearch } = useSelector((state) => state.nguoiDungReducer);
-  console.log("listUserPageSearch: ", listUserPageSearch);
   const dispatch = useDispatch();
   const { register, handleSubmit } = useForm();
 
@@ -37,7 +35,6 @@ const User = () => {
       role: item?.role,
     });
   });
-  console.log(data);
 
   // Table
   const [searchText, setSearchText] = useState("");
@@ -76,7 +73,6 @@ const User = () => {
           </div>
           <form
             onSubmit={handleSubmit((data) => {
-              console.log("data: ", data);
               dispatch(
                 putChangeUserToAdmin({
                   id: i.id,
@@ -328,7 +324,7 @@ const User = () => {
       responsive: ["md"],
       render: (_, record) => (
         <Space size="middle">
-          {console.log("record: ", record)}
+         
           <a>
             <button>{Modal(record)}</button>
           </a>

@@ -29,10 +29,8 @@ const Comments = () => {
   const [searchedColumn, setSearchedColumn] = useState("");
   const searchInput = useRef(null);
   const { listCommentsSearch } = useQuanLyBinhLuan();
-  console.log("listCommentsSearch: ", listCommentsSearch);
   const { allWork } = useSelector((state) => state.congViecReducer);
   const { dsBinhLuan } = useQuanLyBinhLuan();
-  console.log("dsBinhLuan: ", dsBinhLuan);
   const dispatch = useDispatch();
   const {
     register,
@@ -377,7 +375,7 @@ const Comments = () => {
       responsive: ["md"],
       render: (_, record) => (
         <Space size="middle">
-          {console.log("record: ", record)}
+          
           <InfoCircleTwoTone
             onClick={() => {
               setExpand(true);

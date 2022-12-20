@@ -24,7 +24,7 @@ const HireWork = () => {
   const { listServicesSearch } = useSelector(
     (state) => state.thueCongViecReducer
   );
-  console.log("listServicesSearch: ", listServicesSearch);
+  
   const [searchText, setSearchText] = useState("");
   const [searchedColumn, setSearchedColumn] = useState("");
   const searchInput = useRef(null);
@@ -354,7 +354,7 @@ const HireWork = () => {
       responsive: ["md"],
       render: (_, record) => (
         <Space size="middle">
-          {console.log("record: ", record)}
+          
           <CheckCircleTwoTone
             className="cursor-pointer"
             onClick={() => {

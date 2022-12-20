@@ -58,7 +58,6 @@ const EditProfile = (props) => {
     navigate(-1);
   };
 
-  console.log(userInfo);
   return (
     <div className="max-width-container flex justify-center my-3">
       <Container className="w-2/3 p-3">

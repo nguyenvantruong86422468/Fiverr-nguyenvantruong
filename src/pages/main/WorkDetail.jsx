@@ -80,7 +80,6 @@ const WorkDetail = () => {
         ngayThue: time,
         hoanThanh: true,
       };
-      console.log(data);
       dispatch(thueCongViec(data));
     }
   };

@@ -33,7 +33,6 @@ const SignUp = () => {
         <Form
           className="form-signup"
           onSubmit={handleSubmit((data) => {
-            console.log("data: ", data);
             dispatch(signUp(data));
           })}
         >

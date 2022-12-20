@@ -16,7 +16,7 @@ const AddNewComment = () => {
   const dispatch = useDispatch();
 
   const onSubmit = (data) => {
-    console.log("data: ", data);
+    
     dispatch(
       guiBinhLuan({
         maCongViec: parseInt(data.maCongViec),
